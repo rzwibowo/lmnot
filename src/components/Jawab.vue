@@ -6,9 +6,9 @@
             <p class="sapa">Sebenernya kamu tau ga?</p>
             <p class="intro">Sebenernya udah pengen nanya sejak lama sih...
               dan lagi, sebenernya aku juga bertanya-tanya, apa perlu aku bertanya.</p>
-            <router-link tag="button" to="/hasil?y" id="yes">Tau Kok</router-link>
-            <router-link tag="button" to="/hasil?n" id="no">Ga Tau</router-link>
-            <router-link tag="button" to="/hasil?c" id="confuse">Ga Paham yang Ditanyain Apa</router-link>
+            <router-link tag="button" to="/hasil/y" id="yes">Tau Kok</router-link>
+            <router-link tag="button" to="/hasil/n" id="no">Ga Tau</router-link>
+            <router-link tag="button" to="/hasil/c" id="confuse">Ga Paham yang Ditanyain Apa</router-link>
           </div>
       </div>
     </transition>

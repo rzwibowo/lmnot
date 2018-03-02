@@ -38,8 +38,8 @@ export default {
   },
   methods: {
     respon () {
-      this.nganu = this.$route.fullPath
-      switch (this.nganu.slice(-1)) {
+      this.nganu = this.$route.params.resp
+      switch (this.nganu) {
         case 'y':
           this.emoji = ':\')'
           this.what = 'Yeeey'

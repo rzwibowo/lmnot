@@ -20,7 +20,7 @@ export default new Router({
       component: Jawab
     },
     {
-      path: '/hasil',
+      path: '/hasil/:resp',
       name: 'Hasil',
       component: Hasil
     }

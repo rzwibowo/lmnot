@@ -97,7 +97,7 @@ button:active {
 }
 .flw {
   position: absolute;
-  animation: muter 10s ease-in-out reverse infinite;
+  animation: muter 15s linear forwards infinite;
   filter: opacity(30%);
   z-index: -1;
 }
@@ -131,8 +131,7 @@ button:active {
   opacity: 0;
 }
 @keyframes muter {
-  0%    {transform: rotate(360deg)}
-  50%   {transform: rotate(180deg) scale(1.3)}
-  100%  {transform: rotate(0deg) scale(1)}
+  0%    {transform: rotate(0deg)}
+  100%  {transform: rotate(360deg)}
 }
 </style>

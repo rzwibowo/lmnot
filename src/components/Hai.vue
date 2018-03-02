@@ -2,7 +2,7 @@
   <div class="hai outer-tray">
     <transition name="pudar" appear mode="out-in">
       <div class="inner-tray">
-        <div v-if="hai" id="image">
+        <div id="image">
           <img id="mick" src="../assets/mick.png" alt="mickey">
         </div>
         <p class="sapa">Hai manis, ketemu lagi...</p>
@@ -18,25 +18,25 @@
 
 <script>
 export default {
-  name: 'Hai',
-  data () {
-    return {
-      hai: true,
-      halo: true,
-      timer: null
-    }
-  },
-  mounted () {
-    this.mulai()
-  },
-  methods: {
-    mulai: function () {
-      this.timer = setInterval(this.tampilPesan, 2500)
-    },
-    tampilPesan () {
-      this.halo = !this.halo
-    }
-  }
+  name: 'Hai'
+  // data () {
+  //   return {
+  //     hai: true,
+  //     halo: true,
+  //     timer: null
+  //   }
+  // },
+  // mounted () {
+  //   this.mulai()
+  // },
+  // methods: {
+  //   mulai: function () {
+  //     this.timer = setInterval(this.tampilPesan, 2500)
+  //   },
+  //   tampilPesan () {
+  //     this.halo = !this.halo
+  //   }
+  // }
 }
 </script>
 
